@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\courseshootereditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
+        "Source": "e:\\projects\\unrealengine5multiplayercourse\\courseshooter\\intermediate\\build\\win64\\courseshootereditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\courseshootereditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
+            "e:\\projects\\unrealengine5multiplayercourse\\courseshooter\\intermediate\\build\\win64\\courseshootereditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
             "g:\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "g:\\epic\\ue_5.0\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "g:\\epic\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

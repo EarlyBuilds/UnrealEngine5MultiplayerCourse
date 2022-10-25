@@ -538,8 +538,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>E:\projects\UE5CourseMP\CourseShooter\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>E:\projects\UE5CourseMP\CourseShooter\Binaries\HoloLens\CourseShooter.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\HoloLens\CourseShooter.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -661,8 +661,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>E:\projects\UE5CourseMP\CourseShooter\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>E:\projects\UE5CourseMP\CourseShooter\Binaries\HoloLens\CourseShooter.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\HoloLens\CourseShooter.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -766,8 +766,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>E:\projects\UE5CourseMP\CourseShooter\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>E:\projects\UE5CourseMP\CourseShooter\Binaries\HoloLens\CourseShooter.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\HoloLens\CourseShooter.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />

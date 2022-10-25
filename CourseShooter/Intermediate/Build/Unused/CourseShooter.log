@@ -1,5 +1,13 @@
-﻿  Using bundled DotNet SDK
+﻿  Cleaning CourseShooterEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : Unable to delete E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\Win64\UnrealEditor-CourseShooter.dll (Unable to delete E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\Win64\UnrealEditor-CourseShooter.dll - Access is denied.
+                          Processes with open handles to file:
+                            14432: G:\epic\UE_5.0\Engine\Binaries\Win64\UnrealEditor.exe (started 25/10/2022 19:09:22))
+  Using bundled DotNet SDK
   Log file: C:\Users\tmlm\AppData\Local\UnrealBuildTool\Log.txt
-  Using 'git status' to determine working set for adaptive non-unity build (E:\projects\UE5CourseMP).
+  Using 'git status' to determine working set for adaptive non-unity build (E:\projects\UnrealEngine5MultiplayerCourse).
+  Creating makefile for CourseShooterEditor (no existing makefile)
+  Parsing headers for CourseShooterEditor
+    Running UnrealHeaderTool "E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\CourseShooter.uproject" "E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\CourseShooterEditor\Development\CourseShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\tmlm\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for CourseShooterEditor in 0.9548202 seconds
 UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "G:\epic\UE_5.0\Engine\Build\BatchFiles\Build.bat CourseShooterEditor Win64 Development -Project="E:\projects\UE5CourseMP\CourseShooter\CourseShooter.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(50,5): error MSB3073: The command "G:\epic\UE_5.0\Engine\Build\BatchFiles\Rebuild.bat CourseShooterEditor Win64 Development -Project="E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\CourseShooter.uproject" -WaitMutex -FromMsBuild" exited with code -1.

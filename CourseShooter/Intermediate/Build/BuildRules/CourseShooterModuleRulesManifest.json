@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\projects\\UE5CourseMP\\CourseShooter\\Source\\CourseShooter\\CourseShooter.Build.cs",
-		"E:\\projects\\UE5CourseMP\\CourseShooter\\Source\\CourseShooter.Target.cs",
-		"E:\\projects\\UE5CourseMP\\CourseShooter\\Source\\CourseShooterEditor.Target.cs"
+		"E:\\projects\\UnrealEngine5MultiplayerCourse\\CourseShooter\\Source\\CourseShooter\\CourseShooter.Build.cs",
+		"E:\\projects\\UnrealEngine5MultiplayerCourse\\CourseShooter\\Source\\CourseShooter.Target.cs",
+		"E:\\projects\\UnrealEngine5MultiplayerCourse\\CourseShooter\\Source\\CourseShooterEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

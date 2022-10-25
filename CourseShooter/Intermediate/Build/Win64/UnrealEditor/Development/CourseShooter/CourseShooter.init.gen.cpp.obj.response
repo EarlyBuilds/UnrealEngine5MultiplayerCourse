@@ -1,4 +1,4 @@
-E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Inc\CourseShooter\CourseShooter.init.gen.cpp
+E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Inc\CourseShooter\CourseShooter.init.gen.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -251,8 +251,8 @@ E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Inc\
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Inc\CourseShooter
-/I E:\projects\UE5CourseMP\CourseShooter\Source
+/I E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Inc\CourseShooter
+/I E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Source
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -273,12 +273,12 @@ E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Inc\
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\CourseShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Development\CourseShooter\Definitions.CourseShooter.h"
-/Yu"E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\CourseShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\CourseShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Development\CourseShooter\CourseShooter.init.gen.cpp.obj"
-/sourceDependencies E:\projects\UE5CourseMP\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Development\CourseShooter\CourseShooter.init.gen.cpp.json
+/FI"E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\CourseShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Development\CourseShooter\Definitions.CourseShooter.h"
+/Yu"E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\CourseShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\CourseShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Development\CourseShooter\CourseShooter.init.gen.cpp.obj"
+/sourceDependencies E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Intermediate\Build\Win64\UnrealEditor\Development\CourseShooter\CourseShooter.init.gen.cpp.json
 /Zc:inline
 /nologo
 /Oi

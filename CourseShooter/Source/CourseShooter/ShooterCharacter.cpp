@@ -18,6 +18,8 @@ void AShooterCharacter::BeginPlay()
 	UE_LOG(LogTemp, Warning, TEXT("Begin Play"));
 	int myInt{ 42 };
 	UE_LOG(LogTemp, Warning, TEXT("int myInt: %d"), myInt);
+	float myFloat{ 3.14159f };
+	UE_LOG(LogTemp, Warning, TEXT("int myFloat: %d"), myFloat);
 }
 
 // Called every frame
