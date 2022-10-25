@@ -1299,3 +1299,217 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.25-17.49.42:730][772]LogTemp: Warning: Name of instance: BP_ShooterCharacter_C_0
 [2022.10.25-17.49.42:730][772]PIE: Server logged in
 [2022.10.25-17.49.42:731][772]PIE: Play in editor total start time 0.042 seconds.
+[2022.10.25-18.06.48:336][ 78]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.25-18.06.51:714][451]LogLiveCoding: Display:    Creating library E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\Win64\UnrealEditor-CourseShooter.patch_7.lib and object E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\Win64\UnrealEditor-CourseShooter.patch_7.exp
+[2022.10.25-18.06.51:798][454]LogClass: /Script/CourseShooter Reload.
+[2022.10.25-18.06.51:798][454]LogClass: ShooterCharacter Reload.
+[2022.10.25-18.06.51:798][454]LogClass: Could not find existing class ShooterCharacter in package /Script/CourseShooter for reload, assuming new or modified class
+[2022.10.25-18.06.51:803][454]Re-instancing ShooterCharacter after reload.
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: Begin Play
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: int myInt: 42
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: float myFloat: 3.141590
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: double myDouble: 0.000756
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: char myChar: J
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: wchar_t wideChar: J
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: bool myBool: 1
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: int: 42, float: 3.141590, bool: 1
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: FString myString: My first c++ string!
+[2022.10.25-18.06.51:807][454]LogTemp: Warning: Name of instance: BP_ShooterCharacter_C_0
+[2022.10.25-18.06.51:836][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.10.25-18.06.51:854][455]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.10.25-18.06.51:854][455]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.10.25-18.06.54:460][722]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2022.10.25-18.06.54:460][722]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-18.06.55:247][723]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.25-18.06.57:406][947]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2022.10.25-18.06.57:415][947]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-18.06.57:415][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-18.06.57:447][947]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2022.10.25-18.06.57:448][947]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-18.06.57:822][947]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.10.25-18.06.58:853][ 41]LogViewport: Scene viewport resized to 1525x981, mode Windowed.
+[2022.10.25-18.16.35:697][324]LogDerivedDataCache: E:/DerivedDataCache5: Maintenance finished in +00:00:00.242 and deleted 45 file(s) with total size 18 MiB.
+[2022.10.25-18.17.08:397][422]LogDerivedDataCache: E:/DerivedDataCache5: Maintenance finished in +00:00:32.890 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.25-18.20.08:899][416]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.25-18.20.13:160][900]LogLiveCoding: Display:    Creating library E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\Win64\UnrealEditor-CourseShooter.patch_8.lib and object E:\projects\UnrealEngine5MultiplayerCourse\CourseShooter\Binaries\Win64\UnrealEditor-CourseShooter.patch_8.exp
+[2022.10.25-18.20.13:245][903]LogClass: /Script/CourseShooter Reload.
+[2022.10.25-18.20.13:245][903]LogClass: ShooterCharacter Reload.
+[2022.10.25-18.20.13:245][903]LogClass: Could not find existing class ShooterCharacter in package /Script/CourseShooter for reload, assuming new or modified class
+[2022.10.25-18.20.13:255][903]Re-instancing ShooterCharacter after reload.
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: Begin Play
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: int myInt: 42
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: float myFloat: 3.141590
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: double myDouble: 0.000756
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: char myChar: J
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: wchar_t wideChar: J
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: bool myBool: 1
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: int: 42, float: 3.141590, bool: 1
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: FString myString: My first c++ string!
+[2022.10.25-18.20.13:265][903]LogTemp: Warning: Name of instance: BP_ShooterCharacter_C_0
+[2022.10.25-18.20.13:332][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.10.25-18.20.13:576][904]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.10.25-18.20.13:576][904]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.10.25-18.20.14:576][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-18.20.14:576][977]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_NewWorld
+[2022.10.25-18.20.14:576][977]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-18.20.14:576][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-18.20.14:587][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.25-18.20.14:591][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-18.20.14:613][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-18.20.14:613][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.10.25-18.20.14:614][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.10.25-18.20.14:638][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.10.25-18.20.14:652][978]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.10.25-18.20.15:237][ 47]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.25-18.20.15:242][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.25-18.20.15:242][ 47]PIE: New page: PIE session: NewWorld (25 Oct 2022, 22:20:15)
+[2022.10.25-18.20.15:243][ 47]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_NewWorld
+[2022.10.25-18.20.15:244][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001838s)
+[2022.10.25-18.20.15:244][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/NewWorld.NewWorld to /Game/_Game/Maps/UEDPIE_0_NewWorld.NewWorld (0.001902s)
+[2022.10.25-18.20.15:244][ 47]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.25-18.20.15:245][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-18.20.15:245][ 47]LogAIModule: Creating AISystem for world NewWorld
+[2022.10.25-18.20.15:245][ 47]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2022.10.25-18.20.15:271][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.10.25-18.20.15:274][ 47]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.10.25-18.20.15:274][ 47]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.25-18.20.15:274][ 47]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.25-18.20.15:274][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.25-18.20.15:274][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.25-18.20.15:274][ 47]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.25-18.20.15:274][ 47]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.25-18.20.15:274][ 47]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.25-18.20.15:274][ 47]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.25-18.20.15:274][ 47]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.25-18.20.15:274][ 47]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.25-18.20.15:274][ 47]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.25-18.20.15:276][ 47]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.25-18.20.15:293][ 47]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G432 Gaming Headset)
+[2022.10.25-18.20.15:293][ 47]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.25-18.20.15:293][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.25-18.20.15:293][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.25-18.20.15:294][ 47]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.10.25-18.20.15:294][ 47]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2022.10.25-18.20.15:295][ 47]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.10.25-18.20.15:295][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.10.25-18.20.15:295][ 47]LogInit: FAudioDevice initialized.
+[2022.10.25-18.20.15:295][ 47]LogAudio: Display: Audio Device (ID: 11) registered with world 'NewWorld'.
+[2022.10.25-18.20.15:307][ 47]LogLoad: Game class is 'BP_CourseShooterGameModeBase_C'
+[2022.10.25-18.20.15:307][ 47]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 0) at 2022.10.25-20.20.15
+[2022.10.25-18.20.15:308][ 47]LogWorld: Bringing up level for play took: 0.000462
+[2022.10.25-18.20.15:309][ 47]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: Begin Play
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: int myInt: 42
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: float myFloat: 3.141590
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: double myDouble: 0.000756
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: char myChar: J
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: wchar_t wideChar: J
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: bool myBool: 1
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: int: 42, float: 3.141590, bool: 1
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: FString myString: My first c++ string!
+[2022.10.25-18.20.15:310][ 47]LogTemp: Warning: Name of instance: BP_ShooterCharacter_C_0
+[2022.10.25-18.20.15:310][ 47]PIE: Server logged in
+[2022.10.25-18.20.15:310][ 47]PIE: Play in editor total start time 0.069 seconds.
+[2022.10.25-18.20.17:805][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-18.20.17:805][327]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_NewWorld
+[2022.10.25-18.20.17:805][327]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-18.20.17:806][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-18.20.17:816][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.25-18.20.17:819][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-18.20.17:838][327]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.25-18.20.17:838][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.25-18.20.17:839][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.25-18.20.17:842][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-18.20.17:844][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.10.25-18.20.17:877][329]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.10.25-18.22.12:047][184]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.25-18.23.07:207][211]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2022.10.25-18.23.07:246][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.10.25-18.23.07:602][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/BP_ShooterCharacter" FILE="E:/projects/UnrealEngine5MultiplayerCourse/CourseShooter/Content/_Game/Character/BP_ShooterCharacter.uasset" SILENT=true
+[2022.10.25-18.23.07:609][244]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.006753 seconds
+[2022.10.25-18.23.07:612][244]LogSavePackage: Moving output files for package: /Game/_Game/Character/BP_ShooterCharacter
+[2022.10.25-18.23.07:613][244]LogSavePackage: Moving 'E:/projects/UnrealEngine5MultiplayerCourse/CourseShooter/Saved/BP_ShooterCharacterB66B410C4FCC8CFD14ADA594FCA9C385.tmp' to 'E:/projects/UnrealEngine5MultiplayerCourse/CourseShooter/Content/_Game/Character/BP_ShooterCharacter.uasset'
+[2022.10.25-18.23.07:624][244]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2022.10.25-18.23.07:624][244]LogContentValidation: Display: Validating Blueprint /Game/_Game/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2022.10.25-18.24.35:405][ 78]LogViewport: Scene viewport resized to 1030x462, mode Windowed.
+[2022.10.25-18.24.38:692][430]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.25-18.24.38:697][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.25-18.24.38:697][430]PIE: New page: PIE session: NewWorld (25 Oct 2022, 22:24:38)
+[2022.10.25-18.24.38:735][430]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_NewWorld
+[2022.10.25-18.24.38:737][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2022.10.25-18.24.38:737][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/NewWorld.NewWorld to /Game/_Game/Maps/UEDPIE_0_NewWorld.NewWorld (0.001590s)
+[2022.10.25-18.24.38:737][430]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.25-18.24.38:737][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-18.24.38:737][430]LogAIModule: Creating AISystem for world NewWorld
+[2022.10.25-18.24.38:737][430]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2022.10.25-18.24.38:760][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.10.25-18.24.38:761][430]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.10.25-18.24.38:761][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.25-18.24.38:762][430]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.25-18.24.38:762][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.25-18.24.38:762][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.25-18.24.38:762][430]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.25-18.24.38:762][430]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.25-18.24.38:762][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.25-18.24.38:762][430]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.25-18.24.38:762][430]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.25-18.24.38:762][430]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.25-18.24.38:762][430]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.25-18.24.38:763][430]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.25-18.24.38:780][430]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G432 Gaming Headset)
+[2022.10.25-18.24.38:781][430]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.25-18.24.38:781][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.25-18.24.38:781][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.25-18.24.38:782][430]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.10.25-18.24.38:782][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2022.10.25-18.24.38:783][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.10.25-18.24.38:783][430]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.10.25-18.24.38:783][430]LogInit: FAudioDevice initialized.
+[2022.10.25-18.24.38:783][430]LogAudio: Display: Audio Device (ID: 12) registered with world 'NewWorld'.
+[2022.10.25-18.24.38:799][430]LogLoad: Game class is 'BP_CourseShooterGameModeBase_C'
+[2022.10.25-18.24.38:799][430]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 0) at 2022.10.25-20.24.38
+[2022.10.25-18.24.38:799][430]LogWorld: Bringing up level for play took: 0.000437
+[2022.10.25-18.24.38:800][430]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: Begin Play
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: int myInt: 42
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: float myFloat: 3.141590
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: double myDouble: 0.000756
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: char myChar: J
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: wchar_t wideChar: J
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: bool myBool: 1
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: int: 42, float: 3.141590, bool: 1
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: FString myString: My first c++ string!
+[2022.10.25-18.24.38:801][430]LogTemp: Warning: Name of instance: BP_ShooterCharacter_C_0
+[2022.10.25-18.24.38:801][430]PIE: Server logged in
+[2022.10.25-18.24.38:802][430]PIE: Play in editor total start time 0.105 seconds.
+[2022.10.25-18.25.05:786][280]LogViewport: Scene viewport resized to 1525x981, mode Windowed.
+[2022.10.25-18.25.07:116][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-18.25.07:116][420]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_NewWorld
+[2022.10.25-18.25.07:116][420]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-18.25.07:116][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-18.25.07:126][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.25-18.25.07:130][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-18.25.07:151][420]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.25-18.25.07:151][420]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.10.25-18.25.07:152][420]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.10.25-18.25.07:155][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-18.25.07:157][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.10.25-18.25.07:174][421]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.10.25-18.25.39:383][221]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2022.10.25-18.25.39:386][221]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2022.10.25-18.25.39:393][222]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2022.10.25-18.25.40:333][331]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> NewBehaviorTree
+[2022.10.25-18.25.40:335][331]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2022.10.25-18.25.40:482][349]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Game/Character/NewBehaviorTree.NewBehaviorTree
+[2022.10.25-18.25.56:298][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.10.25-18.25.57:217][193]LogSlate: Window 'Save Content' being destroyed
+[2022.10.25-18.25.57:243][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/NewBehaviorTree" FILE="E:/projects/UnrealEngine5MultiplayerCourse/CourseShooter/Content/_Game/Character/NewBehaviorTree.uasset" SILENT=true
+[2022.10.25-18.25.57:244][193]LogSavePackage: Moving output files for package: /Game/_Game/Character/NewBehaviorTree
+[2022.10.25-18.25.57:244][193]LogSavePackage: Moving 'E:/projects/UnrealEngine5MultiplayerCourse/CourseShooter/Saved/NewBehaviorTree7D9ACCF341B4B83F32CA2F94D30E36A2.tmp' to 'E:/projects/UnrealEngine5MultiplayerCourse/CourseShooter/Content/_Game/Character/NewBehaviorTree.uasset'
+[2022.10.25-18.25.57:255][193]AssetCheck: New page: Asset Save: NewBehaviorTree
+[2022.10.25-18.25.57:255][193]LogContentValidation: Display: Validating BehaviorTree /Game/_Game/Character/NewBehaviorTree.NewBehaviorTree
+[2022.10.25-18.25.58:939][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.10.25-18.26.00:018][391]LogSlate: Window 'Delete Assets' being destroyed
+[2022.10.25-18.26.00:046][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.10.25-18.26.00:068][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.10.25-18.26.00:089][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
