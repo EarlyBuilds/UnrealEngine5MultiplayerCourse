@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CourseShooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CourseShooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CourseShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\CourseShooter">
+      <UniqueIdentifier>{4C0C094A-1D86-3B46-BEF7-6F9B70D945E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CourseShooter\BaseCharacter.cpp">
+      <Filter>Source\CourseShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CourseShooter\BaseCharacter.h">
+      <Filter>Source\CourseShooter</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\CourseShooter\CourseShooter.Build.cs">
+      <Filter>Source\CourseShooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CourseShooter\CourseShooter.cpp">
+      <Filter>Source\CourseShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CourseShooter\CourseShooter.h">
+      <Filter>Source\CourseShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CourseShooter\CourseShooterGameModeBase.cpp">
+      <Filter>Source\CourseShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CourseShooter\CourseShooterGameModeBase.h">
+      <Filter>Source\CourseShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CourseShooter\ShooterCharacter.cpp">
+      <Filter>Source\CourseShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CourseShooter\ShooterCharacter.h">
+      <Filter>Source\CourseShooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

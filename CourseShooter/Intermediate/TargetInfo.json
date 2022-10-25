@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CourseShooter",
+			"Path": "E:\\projects\\UE5CourseMP\\CourseShooter\\Source\\CourseShooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CourseShooterEditor",
+			"Path": "E:\\projects\\UE5CourseMP\\CourseShooter\\Source\\CourseShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

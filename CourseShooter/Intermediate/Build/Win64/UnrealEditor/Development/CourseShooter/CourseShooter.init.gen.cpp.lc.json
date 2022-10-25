@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\courseshooter\\courseshooter.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\courseshootereditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\unrealeditor\\development\\courseshooter\\definitions.courseshooter.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

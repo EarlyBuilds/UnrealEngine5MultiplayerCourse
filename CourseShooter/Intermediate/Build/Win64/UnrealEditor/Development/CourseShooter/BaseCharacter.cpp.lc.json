@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projects\\ue5coursemp\\courseshooter\\source\\courseshooter\\basecharacter.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\courseshootereditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\unrealeditor\\development\\courseshooter\\definitions.courseshooter.h",
+            "e:\\projects\\ue5coursemp\\courseshooter\\source\\courseshooter\\basecharacter.h",
+            "g:\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "g:\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "g:\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "g:\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "g:\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "g:\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "e:\\projects\\ue5coursemp\\courseshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\courseshooter\\basecharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
