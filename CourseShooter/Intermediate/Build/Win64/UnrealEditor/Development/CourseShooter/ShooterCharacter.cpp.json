@@ -13,7 +13,11 @@
             "g:\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "g:\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "g:\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
-            "e:\\projects\\unrealengine5multiplayercourse\\courseshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\courseshooter\\shootercharacter.generated.h"
+            "e:\\projects\\unrealengine5multiplayercourse\\courseshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\courseshooter\\shootercharacter.generated.h",
+            "g:\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
+            "g:\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\springarmcomponent.generated.h",
+            "g:\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "g:\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\cameracomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

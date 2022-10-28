@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeCourseShooter_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x437F10CC,
+				0x48AA019D,
 				0x0CF9E238,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeCourseShooter_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_CourseShooter.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CourseShooter(Z_Construct_UPackage__Script_CourseShooter, TEXT("/Script/CourseShooter"), Z_Registration_Info_UPackage__Script_CourseShooter, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x437F10CC, 0x0CF9E238));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CourseShooter(Z_Construct_UPackage__Script_CourseShooter, TEXT("/Script/CourseShooter"), Z_Registration_Info_UPackage__Script_CourseShooter, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x48AA019D, 0x0CF9E238));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
