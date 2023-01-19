@@ -11,6 +11,8 @@
     <None Include="..\..\Source\CourseShooterEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -23,6 +25,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Config\HoloLens">
       <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
     </Filter>
@@ -32,12 +37,6 @@
     <Filter Include="Source\CourseShooter">
       <UniqueIdentifier>{4C0C094A-1D86-3B46-BEF7-6F9B70D945E8}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\CourseShooter\BaseCharacter.cpp">
-      <Filter>Source\CourseShooter</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\CourseShooter\BaseCharacter.h">
-      <Filter>Source\CourseShooter</Filter>
-    </ClInclude>
     <None Include="..\..\Source\CourseShooter\CourseShooter.Build.cs">
       <Filter>Source\CourseShooter</Filter>
     </None>
@@ -51,6 +50,12 @@
       <Filter>Source\CourseShooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CourseShooter\CourseShooterGameModeBase.h">
+      <Filter>Source\CourseShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CourseShooter\ShooterAnimInstance.cpp">
+      <Filter>Source\CourseShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CourseShooter\ShooterAnimInstance.h">
       <Filter>Source\CourseShooter</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CourseShooter\ShooterCharacter.cpp">
