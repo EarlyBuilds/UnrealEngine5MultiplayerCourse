@@ -20,18 +20,18 @@ public:
 
 	virtual void NativeInitializeAnimation() override;
 private:
-	UPROPERTY(VisibleAnywhere, Category = Movement, meta =(AllowPrivateAcces = "True"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta =(AllowPrivateAccess = "True"))
 	class AShooterCharacter* ShooterCharacter;
 
 	/** Character Speed*/
-	UPROPERTY(VisibleAnywhere, Category = Movement, meta = (AllowPrivateAcces = "True"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "True"))
 	float Speed;
 
 	/** Character In Air*/
-	UPROPERTY(VisibleAnywhere, Category = Movement, meta = (AllowPrivateAcces = "True"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "True"))
 	bool bIsInAir;
 
 	/** Character Is Moving*/
-	UPROPERTY(VisibleAnywhere, Category = Movement, meta = (AllowPrivateAcces = "True"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "True"))
 	bool bIsAccelerating;
 };
