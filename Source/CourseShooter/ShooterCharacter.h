@@ -30,6 +30,10 @@ protected:
 
 	//LookUpRate
 	void LookUpAtRate(float Rate);
+
+	//Called when Fire Weapon button is pressed
+	void FireWeapon();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -54,6 +58,14 @@ private:
 	//Base LookUp rate value
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	float BaseLookUpRate;
+
+	//Weapon Fire Sound
+	UPROPERTY(EditAnywhere, BlueprintReadWrite,Category = Weapon, meta = (AllowPrivateAccess = "true"))
+	class USoundCue* FireSound;
+
+	//Muzzle Flash Particle
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon, meta = (AllowPrivateAccess = "true"))
+	class UParticleSystem* MuzzleFlash;
 
 public:
 	/** Returns CameraBoom subobject*/
