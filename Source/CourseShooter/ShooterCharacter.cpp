@@ -19,7 +19,7 @@ AShooterCharacter::AShooterCharacter() :
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	
-	//Setting up Camera boom (pulls in towards the character if there si a collision)
+	// Setting up Camera boom (pulls in towards the character if there si a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->TargetArmLength = 300.f; // distance between character and camera
@@ -29,16 +29,18 @@ AShooterCharacter::AShooterCharacter() :
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); //Setup and attach camera to the SpringArm
 	FollowCamera->bUsePawnControlRotation = false; //Camera Doesn't rotate relative to SpringArm
 
+	// this code isnt used because i dont like it.
+	// freelook is a better option.
 	//// When Camera moves the character doesnt move with it. only the camera.
 	//bUseControllerRotationPitch = false;
 	//bUseControllerRotationYaw = false;
 	//bUseControllerRotationRoll = false;
 
-	////Set Orientate To Movement	
-	//GetCharacterMovement()->bOrientRotationToMovement = true;
+	//// Set Orientate To Movement	
+	// GetCharacterMovement()->bOrientRotationToMovement = true;
 
-	////Rotation Rate
-	//GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
+	//// Rotation Rate
+	// GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
 	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 }
@@ -49,15 +51,17 @@ void AShooterCharacter::BeginPlay()
 	Super::BeginPlay();
 	UE_LOG(LogTemp, Warning, TEXT("Begin Play"));
 
-	//setting and printing a int
+	// Ignore this just learning how to make variables and print them to log.
+	
+	// Setting and printing a int
 	int myInt{ 42 };
 	UE_LOG(LogTemp, Warning, TEXT("int myInt: %d"), myInt);
 
-	//setting a printing a float
+	// Setting a printing a float
 	float myFloat{ 3.14159f };
 	UE_LOG(LogTemp, Warning, TEXT("float myFloat: %f"), myFloat);
 
-	//setting and printing a double
+	// Setting and printing a double
 	double myDouble{ 0.000756 };
 	UE_LOG(LogTemp, Warning, TEXT("double myDouble: %lf"), myDouble);
 
@@ -83,8 +87,10 @@ void AShooterCharacter::BeginPlay()
 	//get name of the current object
 	UE_LOG(LogTemp, Warning, TEXT("Name of instance: %s"), *GetName());
 
+	//The end of learning thing.
 }
 
+//Fire Weapon Function
 void AShooterCharacter::FireWeapon() {
 	UE_LOG(LogTemp, Warning, TEXT("FireWeapon"));
 	if (FireSound) {
@@ -97,9 +103,26 @@ void AShooterCharacter::FireWeapon() {
 		if (MuzzleFlash) {
 			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), MuzzleFlash, SocketTransform);
 		}
+		
+		//
+		FHitResult FireHit;
+		const FVector Start{ SocketTransform.GetLocation() };
+		const FQuat Rotation{ SocketTransform.GetRotation() };
+
+		
+		GetWorld()->LineTraceSingleByChannel() {
+
+		}
+	}
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	if (AnimInstance && HipFireMontage)
+	{
+		AnimInstance->Montage_Play(HipFireMontage);
+		AnimInstance->Montage_JumpToSection(FName("StartFire"));
 	}
 }
 
+//Move Forward/Backward Function
 void AShooterCharacter::MoveForward(float Value)
 {
 	if ((Controller != nullptr) && (Value != 0.0f)) {
@@ -111,6 +134,7 @@ void AShooterCharacter::MoveForward(float Value)
 	}
 }
 
+//Move Right/Left Function
 void AShooterCharacter::MoveRight(float Value)
 {
 	if ((Controller != nullptr) && (Value != 0.0f)) {
@@ -136,16 +160,17 @@ void AShooterCharacter::LookUpAtRate(float Rate)
 
 }
 
-// Called every frame
+//Tick
 void AShooterCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
-// Called to bind functionality to input
+//Function to bind input to functions
 void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
+	//idfk what this does
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
@@ -153,18 +178,19 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAxis("MoveForward", this, &AShooterCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AShooterCharacter::MoveRight);
 
+	//Look for Gamepad
 	PlayerInputComponent->BindAxis("TurnRate", this, &AShooterCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AShooterCharacter::LookUpAtRate);
 
-	//Mouse Controls
+	//Look for Mouse
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 
-	//Jumping
+	//Character Jump
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	//Fire Weapon
+	//Character Fire Weapon
 	PlayerInputComponent->BindAction("FireButton", IE_Released, this, &AShooterCharacter::FireWeapon);
 }
 
